@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         
         view.addSubview(stackView)
         stackView.frame = .init(x: 0, y: 0, width: 300, height: 200)
+        
+        
+        //just for test
     }
 
 
