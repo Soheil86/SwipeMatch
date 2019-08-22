@@ -15,6 +15,7 @@
 		5BEC3FCE230DDF1100ADB4A5 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FCD230DDF1100ADB4A5 /* Extensions+UIView.swift */; };
 		5BEC3FD1230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD0230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift */; };
 		5BEC3FD3230E07D600ADB4A5 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD2230E07D600ADB4A5 /* TopNavigationStackView.swift */; };
+		5BEC3FD5230E988600ADB4A5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD4230E988600ADB4A5 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5BEC3FCD230DDF1100ADB4A5 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 		5BEC3FD0230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
 		5BEC3FD2230E07D600ADB4A5 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		5BEC3FD4230E988600ADB4A5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				5BEC3FD2230E07D600ADB4A5 /* TopNavigationStackView.swift */,
 				5BEC3FD0230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift */,
+				5BEC3FD4230E988600ADB4A5 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				5BEC3FD1230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift in Sources */,
 				5BB35691230DCB71001F87E2 /* AppDelegate.swift in Sources */,
 				5BEC3FCE230DDF1100ADB4A5 /* Extensions+UIView.swift in Sources */,
+				5BEC3FD5230E988600ADB4A5 /* CardView.swift in Sources */,
 				5BEC3FD3230E07D600ADB4A5 /* TopNavigationStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
