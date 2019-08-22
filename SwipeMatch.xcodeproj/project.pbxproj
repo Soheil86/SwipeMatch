@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B78FB87230EE3E300FC7A31 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */; };
 		5BB35691230DCB71001F87E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB35690230DCB71001F87E2 /* AppDelegate.swift */; };
 		5BB35693230DCB71001F87E2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB35692230DCB71001F87E2 /* HomeController.swift */; };
 		5BB35696230DCB71001F87E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB35694230DCB71001F87E2 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		5BB3568D230DCB71001F87E2 /* SwipeMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB35690230DCB71001F87E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB35692230DCB71001F87E2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B78FB84230EDE9000FC7A31 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB35692230DCB71001F87E2 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B78FB85230EE3B300FC7A31 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		5BB35684230DCB71001F87E2 = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +82,12 @@
 		5BB3568F230DCB71001F87E2 /* SwipeMatch */ = {
 			isa = PBXGroup;
 			children = (
+				5B78FB85230EE3B300FC7A31 /* ViewModels */,
 				5BEC3FD6230EB19800ADB4A5 /* Model */,
 				5BEC3FCF230DF9BC00ADB4A5 /* Views */,
+				5B78FB84230EDE9000FC7A31 /* Controllers */,
 				5BEC3FCA230DDDE200ADB4A5 /* Extensions */,
 				5BB35690230DCB71001F87E2 /* AppDelegate.swift */,
-				5BB35692230DCB71001F87E2 /* HomeController.swift */,
 				5BB35694230DCB71001F87E2 /* Main.storyboard */,
 				5BB35697230DCB72001F87E2 /* Assets.xcassets */,
 				5BB35699230DCB72001F87E2 /* LaunchScreen.storyboard */,
@@ -174,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B78FB87230EE3E300FC7A31 /* CardViewModel.swift in Sources */,
 				5BB35693230DCB71001F87E2 /* HomeController.swift in Sources */,
 				5BEC3FD1230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift in Sources */,
 				5BB35691230DCB71001F87E2 /* AppDelegate.swift in Sources */,
