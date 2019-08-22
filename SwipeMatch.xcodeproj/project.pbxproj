@@ -16,6 +16,7 @@
 		5BEC3FD1230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD0230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift */; };
 		5BEC3FD3230E07D600ADB4A5 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD2230E07D600ADB4A5 /* TopNavigationStackView.swift */; };
 		5BEC3FD5230E988600ADB4A5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD4230E988600ADB4A5 /* CardView.swift */; };
+		5BEC3FD8230EC5F100ADB4A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3FD7230EC5F100ADB4A5 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5BEC3FD0230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
 		5BEC3FD2230E07D600ADB4A5 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		5BEC3FD4230E988600ADB4A5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5BEC3FD7230EC5F100ADB4A5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = SwipeMatch/Models/User.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		5BEC3FD6230EB19800ADB4A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BEC3FD7230EC5F100ADB4A5 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				5BEC3FCE230DDF1100ADB4A5 /* Extensions+UIView.swift in Sources */,
 				5BEC3FD5230E988600ADB4A5 /* CardView.swift in Sources */,
 				5BEC3FD3230E07D600ADB4A5 /* TopNavigationStackView.swift in Sources */,
+				5BEC3FD8230EC5F100ADB4A5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
