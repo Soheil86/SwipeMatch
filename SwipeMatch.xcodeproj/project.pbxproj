@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B21258D23106A14000E741B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21258C23106A14000E741B /* Bindable.swift */; };
 		5B78FB87230EE3E300FC7A31 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */; };
 		5B78FB89230EF3C800FC7A31 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB88230EF3C800FC7A31 /* Advertiser.swift */; };
 		5B78FB8B230FD1C000FC7A31 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB8A230FD1C000FC7A31 /* RegistrationController.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		293731D5690335D3AD9DFE8D /* Pods_SwipeMatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeMatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B21258C23106A14000E741B /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		5B78FB88230EF3C800FC7A31 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Advertiser.swift; path = SwipeMatch/ViewModels/Advertiser.swift; sourceTree = SOURCE_ROOT; };
 		5B78FB8A230FD1C000FC7A31 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5BB35692230DCB71001F87E2 /* HomeController.swift */,
 				5B78FB8A230FD1C000FC7A31 /* RegistrationController.swift */,
 				5B78FB8E230FF6E500FC7A31 /* RegistrationViewModel.swift */,
+				5B21258C23106A14000E741B /* Bindable.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B21258D23106A14000E741B /* Bindable.swift in Sources */,
 				5B78FB87230EE3E300FC7A31 /* CardViewModel.swift in Sources */,
 				5B78FB8F230FF6E500FC7A31 /* RegistrationViewModel.swift in Sources */,
 				5B78FB8D230FD80900FC7A31 /* CustomTextField.swift in Sources */,
