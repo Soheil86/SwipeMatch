@@ -10,6 +10,29 @@
 		5B21258D23106A14000E741B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21258C23106A14000E741B /* Bindable.swift */; };
 		5B21259323114652000E741B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21259223114652000E741B /* SettingsController.swift */; };
 		5B2125952311776E000E741B /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125942311776E000E741B /* SettingsCell.swift */; };
+		5B2125972311D7C3000E741B /* AgeRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125962311D7C3000E741B /* AgeRangeCell.swift */; };
+		5B21259B2311E464000E741B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125992311E464000E741B /* LoginController.swift */; };
+		5B21259C2311E464000E741B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21259A2311E464000E741B /* LoginViewModel.swift */; };
+		5B21259E2311EB24000E741B /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21259D2311EB24000E741B /* Firebase+Utils.swift */; };
+		5B2125A123127D00000E741B /* userDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A023127D00000E741B /* userDetailsController.swift */; };
+		5B2125A323144529000E741B /* KeepSwipingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A223144529000E741B /* KeepSwipingButton.swift */; };
+		5B2125AC2314455D000E741B /* CustomInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A52314455D000E741B /* CustomInputAccessoryView.swift */; };
+		5B2125AD2314455D000E741B /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A62314455D000E741B /* MatchCell.swift */; };
+		5B2125AE2314455D000E741B /* MatchesNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A72314455D000E741B /* MatchesNavBar.swift */; };
+		5B2125AF2314455D000E741B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A82314455D000E741B /* MessageCell.swift */; };
+		5B2125B02314455D000E741B /* RecentMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125A92314455D000E741B /* RecentMessageCell.swift */; };
+		5B2125B12314455D000E741B /* MatchesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125AA2314455D000E741B /* MatchesHeader.swift */; };
+		5B2125B22314455D000E741B /* MessagesNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125AB2314455D000E741B /* MessagesNavBar.swift */; };
+		5B2125B623144605000E741B /* SendMessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125B323144604000E741B /* SendMessageButton.swift */; };
+		5B2125B823144605000E741B /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125B523144605000E741B /* MatchView.swift */; };
+		5B2125BC231446BB000E741B /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125B9231446B9000E741B /* Match.swift */; };
+		5B2125BD231446BB000E741B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125BA231446BA000E741B /* Message.swift */; };
+		5B2125BE231446BB000E741B /* RecentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125BB231446BB000E741B /* RecentMessage.swift */; };
+		5B2125C1231447CC000E741B /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125BF231447CB000E741B /* PhotoController.swift */; };
+		5B2125C2231447CC000E741B /* SwipingPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125C0231447CC000E741B /* SwipingPhotosController.swift */; };
+		5B2125C723144850000E741B /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125C423144850000E741B /* ChatLogController.swift */; };
+		5B2125C823144850000E741B /* MatchesMessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125C523144850000E741B /* MatchesMessagesController.swift */; };
+		5B2125C923144850000E741B /* MatchesHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2125C623144850000E741B /* MatchesHorizontalController.swift */; };
 		5B78FB87230EE3E300FC7A31 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */; };
 		5B78FB89230EF3C800FC7A31 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB88230EF3C800FC7A31 /* Advertiser.swift */; };
 		5B78FB8B230FD1C000FC7A31 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78FB8A230FD1C000FC7A31 /* RegistrationController.swift */; };
@@ -34,6 +57,29 @@
 		5B21258C23106A14000E741B /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		5B21259223114652000E741B /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		5B2125942311776E000E741B /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		5B2125962311D7C3000E741B /* AgeRangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeCell.swift; sourceTree = "<group>"; };
+		5B2125992311E464000E741B /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5B21259A2311E464000E741B /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5B21259D2311EB24000E741B /* Firebase+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
+		5B2125A023127D00000E741B /* userDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetailsController.swift; sourceTree = "<group>"; };
+		5B2125A223144529000E741B /* KeepSwipingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepSwipingButton.swift; sourceTree = "<group>"; };
+		5B2125A52314455D000E741B /* CustomInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInputAccessoryView.swift; sourceTree = "<group>"; };
+		5B2125A62314455D000E741B /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		5B2125A72314455D000E741B /* MatchesNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesNavBar.swift; sourceTree = "<group>"; };
+		5B2125A82314455D000E741B /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		5B2125A92314455D000E741B /* RecentMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentMessageCell.swift; sourceTree = "<group>"; };
+		5B2125AA2314455D000E741B /* MatchesHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesHeader.swift; sourceTree = "<group>"; };
+		5B2125AB2314455D000E741B /* MessagesNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesNavBar.swift; sourceTree = "<group>"; };
+		5B2125B323144604000E741B /* SendMessageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageButton.swift; sourceTree = "<group>"; };
+		5B2125B523144605000E741B /* MatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		5B2125B9231446B9000E741B /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		5B2125BA231446BA000E741B /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5B2125BB231446BB000E741B /* RecentMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentMessage.swift; sourceTree = "<group>"; };
+		5B2125BF231447CB000E741B /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		5B2125C0231447CC000E741B /* SwipingPhotosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipingPhotosController.swift; sourceTree = "<group>"; };
+		5B2125C423144850000E741B /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		5B2125C523144850000E741B /* MatchesMessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesMessagesController.swift; sourceTree = "<group>"; };
+		5B2125C623144850000E741B /* MatchesHorizontalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesHorizontalController.swift; sourceTree = "<group>"; };
 		5B78FB86230EE3E300FC7A31 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		5B78FB88230EF3C800FC7A31 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Advertiser.swift; path = SwipeMatch/ViewModels/Advertiser.swift; sourceTree = SOURCE_ROOT; };
 		5B78FB8A230FD1C000FC7A31 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
@@ -85,9 +131,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5B2125982311E1E3000E741B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5B2125992311E464000E741B /* LoginController.swift */,
+				5B21259A2311E464000E741B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5B21259F23127CCC000E741B /* User Details */ = {
+			isa = PBXGroup;
+			children = (
+				5B2125BF231447CB000E741B /* PhotoController.swift */,
+				5B2125C0231447CC000E741B /* SwipingPhotosController.swift */,
+				5B2125A023127D00000E741B /* userDetailsController.swift */,
+			);
+			path = "User Details";
+			sourceTree = "<group>";
+		};
+		5B2125A42314455D000E741B /* MatchesMessages */ = {
+			isa = PBXGroup;
+			children = (
+				5B2125A52314455D000E741B /* CustomInputAccessoryView.swift */,
+				5B2125A62314455D000E741B /* MatchCell.swift */,
+				5B2125A72314455D000E741B /* MatchesNavBar.swift */,
+				5B2125A82314455D000E741B /* MessageCell.swift */,
+				5B2125A92314455D000E741B /* RecentMessageCell.swift */,
+				5B2125AA2314455D000E741B /* MatchesHeader.swift */,
+				5B2125AB2314455D000E741B /* MessagesNavBar.swift */,
+			);
+			path = MatchesMessages;
+			sourceTree = "<group>";
+		};
+		5B2125C323144850000E741B /* MatchesMessages */ = {
+			isa = PBXGroup;
+			children = (
+				5B2125C423144850000E741B /* ChatLogController.swift */,
+				5B2125C523144850000E741B /* MatchesMessagesController.swift */,
+				5B2125C623144850000E741B /* MatchesHorizontalController.swift */,
+			);
+			path = MatchesMessages;
+			sourceTree = "<group>";
+		};
 		5B78FB84230EDE9000FC7A31 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5B2125C323144850000E741B /* MatchesMessages */,
+				5B21259F23127CCC000E741B /* User Details */,
+				5B2125982311E1E3000E741B /* Login */,
 				5BB35692230DCB71001F87E2 /* HomeController.swift */,
 				5B78FB8A230FD1C000FC7A31 /* RegistrationController.swift */,
 				5B78FB8E230FF6E500FC7A31 /* RegistrationViewModel.swift */,
@@ -144,6 +236,7 @@
 		5BEC3FCA230DDDE200ADB4A5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5B21259D2311EB24000E741B /* Firebase+Utils.swift */,
 				5BEC3FCD230DDF1100ADB4A5 /* Extensions+UIView.swift */,
 			);
 			path = Extensions;
@@ -152,11 +245,16 @@
 		5BEC3FCF230DF9BC00ADB4A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5B2125A42314455D000E741B /* MatchesMessages */,
+				5B2125A223144529000E741B /* KeepSwipingButton.swift */,
 				5BEC3FD2230E07D600ADB4A5 /* TopNavigationStackView.swift */,
 				5BEC3FD0230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift */,
 				5BEC3FD4230E988600ADB4A5 /* CardView.swift */,
 				5B78FB8C230FD80900FC7A31 /* CustomTextField.swift */,
 				5B2125942311776E000E741B /* SettingsCell.swift */,
+				5B2125962311D7C3000E741B /* AgeRangeCell.swift */,
+				5B2125B523144605000E741B /* MatchView.swift */,
+				5B2125B323144604000E741B /* SendMessageButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +262,9 @@
 		5BEC3FD6230EB19800ADB4A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5B2125B9231446B9000E741B /* Match.swift */,
+				5B2125BA231446BA000E741B /* Message.swift */,
+				5B2125BB231446BB000E741B /* RecentMessage.swift */,
 				5BEC3FD7230EC5F100ADB4A5 /* User.swift */,
 				5B78FB88230EF3C800FC7A31 /* Advertiser.swift */,
 			);
@@ -287,20 +388,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B21258D23106A14000E741B /* Bindable.swift in Sources */,
+				5B2125B823144605000E741B /* MatchView.swift in Sources */,
 				5B78FB87230EE3E300FC7A31 /* CardViewModel.swift in Sources */,
 				5B78FB8F230FF6E500FC7A31 /* RegistrationViewModel.swift in Sources */,
+				5B2125AC2314455D000E741B /* CustomInputAccessoryView.swift in Sources */,
 				5B78FB8D230FD80900FC7A31 /* CustomTextField.swift in Sources */,
+				5B2125BD231446BB000E741B /* Message.swift in Sources */,
+				5B2125C723144850000E741B /* ChatLogController.swift in Sources */,
+				5B2125B22314455D000E741B /* MessagesNavBar.swift in Sources */,
+				5B2125BE231446BB000E741B /* RecentMessage.swift in Sources */,
+				5B2125AE2314455D000E741B /* MatchesNavBar.swift in Sources */,
+				5B2125C1231447CC000E741B /* PhotoController.swift in Sources */,
+				5B2125B02314455D000E741B /* RecentMessageCell.swift in Sources */,
 				5BB35693230DCB71001F87E2 /* HomeController.swift in Sources */,
+				5B2125A323144529000E741B /* KeepSwipingButton.swift in Sources */,
+				5B2125C2231447CC000E741B /* SwipingPhotosController.swift in Sources */,
+				5B2125B12314455D000E741B /* MatchesHeader.swift in Sources */,
 				5B78FB89230EF3C800FC7A31 /* Advertiser.swift in Sources */,
 				5B21259323114652000E741B /* SettingsController.swift in Sources */,
+				5B2125972311D7C3000E741B /* AgeRangeCell.swift in Sources */,
+				5B2125AF2314455D000E741B /* MessageCell.swift in Sources */,
+				5B2125B623144605000E741B /* SendMessageButton.swift in Sources */,
+				5B21259C2311E464000E741B /* LoginViewModel.swift in Sources */,
+				5B2125BC231446BB000E741B /* Match.swift in Sources */,
 				5BEC3FD1230DF9F700ADB4A5 /* HomeBottomControlsStackView.swift in Sources */,
+				5B21259E2311EB24000E741B /* Firebase+Utils.swift in Sources */,
 				5BB35691230DCB71001F87E2 /* AppDelegate.swift in Sources */,
 				5BEC3FCE230DDF1100ADB4A5 /* Extensions+UIView.swift in Sources */,
+				5B2125C823144850000E741B /* MatchesMessagesController.swift in Sources */,
+				5B2125AD2314455D000E741B /* MatchCell.swift in Sources */,
+				5B2125C923144850000E741B /* MatchesHorizontalController.swift in Sources */,
+				5B21259B2311E464000E741B /* LoginController.swift in Sources */,
 				5BEC3FD5230E988600ADB4A5 /* CardView.swift in Sources */,
 				5BEC3FD3230E07D600ADB4A5 /* TopNavigationStackView.swift in Sources */,
 				5B78FB8B230FD1C000FC7A31 /* RegistrationController.swift in Sources */,
 				5BEC3FD8230EC5F100ADB4A5 /* User.swift in Sources */,
 				5B2125952311776E000E741B /* SettingsCell.swift in Sources */,
+				5B2125A123127D00000E741B /* userDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
